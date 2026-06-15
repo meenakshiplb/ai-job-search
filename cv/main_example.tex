@@ -1,0 +1,132 @@
+%% Master CV - Meenakshi
+%% Comprehensive overview of all competencies, experience, and achievements.
+%% Use as a master reference when tailoring role-specific CVs via /apply.
+%%
+%% Compile with: lualatex main_example.tex
+%% (pdflatex often fails on modern LaTeX installs with fontawesome5 font-expansion errors.)
+%%
+%% Run /setup to populate this with your full profile details.
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force name and section headings to render in moderncv blue
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Meenakshi - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.77]{geometry}
+\usepackage{import}
+
+% Personal data — run /setup to fill these in
+\name{Meenakshi}{[Last Name]}
+\address{Vienna, Austria}{}{}
+\phone[mobile]{[Your Phone Number]}
+\email{meenuplb@gmail.com}
+\extrainfo{\href{[Your LinkedIn URL]}{LinkedIn}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Senior software engineer with 10+ years of hands-on experience in Java backend development and REST API design. Proven track record delivering production systems in Agile/Scrum environments at Broadcom, including sprint facilitation, on-call operations, and cross-functional delivery. Combines engineering depth with a collaborative, ownership-driven approach, and is actively building applied AI/ML skills.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Java Backend Engineering}: [Add frameworks: Spring Boot, Hibernate, etc. via /setup]
+
+\item \textbf{REST API Design \& Integration}: [Add specific tools, OpenAPI/Swagger, etc.]
+
+\item \textbf{Agile Delivery \& Facilitation}: Sprint planning, story grooming, bug triage, on-call support, standup facilitation
+
+\item \textbf{[Add domain expertise — e.g. Cloud/Infrastructure, Testing, CI/CD]}: [Add via /setup]
+
+\item \textbf{AI/ML (in progress)}: [Add current tools and frameworks you're studying]
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+\item{\cventry{[YYYY--Present]}{R\&D Engineer Software 3 (Senior Software Engineer)}{Broadcom Inc.}{Vienna, Austria}{}{\vspace{1pt}
+\begin{itemize}
+    \item [Add specific achievement 1 with measurable outcome — add via /setup]
+    \item [Add specific achievement 2]
+    \item Java backend development and REST API design for [add product/system context]
+    \item Agile ceremony facilitation: sprint planning, story grooming, bug triage, on-call support
+    \item [Add more bullets via /setup]
+\end{itemize}}}
+
+\vspace{3pt}
+
+% Add previous roles via /setup
+\item{\cventry{[YYYY--YYYY]}{[Previous Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\begin{itemize}
+    \item [Add via /setup]
+    \item [Add via /setup]
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
+[Add details via /setup — or note if no formal CS degree: "Technical skills developed through 10+ years of applied engineering practice."]
+}}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item Odia (native), English (professional/C1+), German (working knowledge/B1).
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Available upon request.}
+\end{itemize}
+
+\end{document}
