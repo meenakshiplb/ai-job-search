@@ -184,23 +184,36 @@ site:erstegroup.com/careers Vienna Java
 ### Priority 8: Broader Java Roles (Non-Senior Title but Java Required)
 Roles not titled "Senior" but requiring Java as a core skill. Useful for catching strong roles at companies that don't use seniority in job titles. Score conservatively — verify experience level matches before applying.
 
+Note: Also covers title variations like "Back End Developer" (with space) and roles where Java appears in the description rather than the title.
+
 ```
 site:karriere.at "Software Engineer" Java Wien
 site:karriere.at "Backend Engineer" Java Wien
+site:karriere.at "Back End Engineer" Java Wien
 site:karriere.at "Software Developer" Java Wien
 site:karriere.at "Backend Developer" Java Wien
+site:karriere.at "Back End Developer" Java Wien
 site:karriere.at "Java Developer" Wien
 site:karriere.at "Platform Engineer" Java Wien
 site:karriere.at "Application Engineer" Java Wien
 site:stepstone.at "Software Engineer" Java Wien
 site:stepstone.at "Backend Engineer" Java Wien
+site:stepstone.at "Backend Developer" Java Wien
 site:stepstone.at "Java Developer" Wien
 site:linkedin.com/jobs "Software Engineer" Java Vienna
 site:linkedin.com/jobs "Backend Engineer" Java Vienna
+site:linkedin.com/jobs "Backend Developer" Java Vienna
+site:linkedin.com/jobs "Back End Developer" Java Vienna
 site:linkedin.com/jobs "Java Developer" Vienna
 site:linkedin.com/jobs "Platform Engineer" Java Vienna
 site:wearedevelopers.com "Backend Engineer" Java Vienna
+site:wearedevelopers.com "Backend Developer" Java Vienna
 site:wearedevelopers.com "Software Engineer" Java Vienna
+Java Kotlin Vienna Backend Developer
+Java "Spring Boot" Vienna Developer
+"Back End Developer" Java Vienna
+"Backend Developer" Java Vienna microservices
+Java Kotlin microservices Vienna Engineer
 "Software Engineer" Java "Spring Boot" Vienna
 "Backend Engineer" Java REST Vienna
 "Java Developer" Docker Kubernetes Vienna
