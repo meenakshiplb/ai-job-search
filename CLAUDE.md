@@ -66,7 +66,8 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 3. **Exploratory:** Product Owner or AI-adjacent roles (open to discovery)
 
 ### Deal-breakers
-- Roles requiring relocation outside Europe
+- Roles requiring physical relocation outside Europe (on-site or hybrid outside Europe)
+- Fully remote roles for companies outside Europe are welcome if the opportunity is strong
 - Junior-level roles (below Senior / 5+ years experience expected)
 
 ## Repo Structure
