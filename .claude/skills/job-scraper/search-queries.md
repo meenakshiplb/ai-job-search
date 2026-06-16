@@ -181,6 +181,32 @@ site:verbund.com/careers Vienna
 site:erstegroup.com/careers Vienna Java
 ```
 
+### Priority 8: Broader Java Roles (Non-Senior Title but Java Required)
+Roles not titled "Senior" but requiring Java as a core skill. Useful for catching strong roles at companies that don't use seniority in job titles. Score conservatively — verify experience level matches before applying.
+
+```
+site:karriere.at "Software Engineer" Java Wien
+site:karriere.at "Backend Engineer" Java Wien
+site:karriere.at "Software Developer" Java Wien
+site:karriere.at "Backend Developer" Java Wien
+site:karriere.at "Java Developer" Wien
+site:karriere.at "Platform Engineer" Java Wien
+site:karriere.at "Application Engineer" Java Wien
+site:stepstone.at "Software Engineer" Java Wien
+site:stepstone.at "Backend Engineer" Java Wien
+site:stepstone.at "Java Developer" Wien
+site:linkedin.com/jobs "Software Engineer" Java Vienna
+site:linkedin.com/jobs "Backend Engineer" Java Vienna
+site:linkedin.com/jobs "Java Developer" Vienna
+site:linkedin.com/jobs "Platform Engineer" Java Vienna
+site:wearedevelopers.com "Backend Engineer" Java Vienna
+site:wearedevelopers.com "Software Engineer" Java Vienna
+"Software Engineer" Java "Spring Boot" Vienna
+"Backend Engineer" Java REST Vienna
+"Java Developer" Docker Kubernetes Vienna
+"Application Engineer" Java REST Vienna
+```
+
 ---
 
 ## Location Filter
@@ -220,9 +246,10 @@ site:erstegroup.com/careers Vienna Java
 
 ## Adapting Queries
 If you use `/scrape <focus>`:
-- `/scrape java` — Priority 1 only
+- `/scrape java` — Priority 1 only (Senior Java roles)
 - `/scrape remote` — Priorities 2 & 3
 - `/scrape ai` — Priority 4 only
 - `/scrape lead` — Priority 5 only
 - `/scrape domain` — Priority 6 only
+- `/scrape broader` — Priority 8 only (non-senior Java roles)
 - `/scrape [company]` — site-search that company's careers page
