@@ -102,7 +102,7 @@ After creating or updating a CV or cover letter, re-read the generated file and 
 - [ ] Nice-to-have requirements highlighted where there is a match
 
 ### Consistency
-- [ ] CV follows the standard 2-page moderncv/banking format
+- [ ] CV follows the standard **1-page** moderncv/banking format
 - [ ] Cover letter uses cover.cls template and established structure
 - [ ] Tone is consistent across CV and cover letter
 - [ ] No contradictions between CV and cover letter content
@@ -117,7 +117,7 @@ After creating or updating a CV or cover letter, re-read the generated file and 
 ### Compiled PDF verification (MANDATORY - never skip)
 Both documents MUST be compiled and visually inspected via the Read tool on the PDF output.
 - [ ] CV compiled with **lualatex** (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors). Cover letter compiled with **xelatex** (cover.cls requires fontspec).
-- [ ] **CV is exactly 2 pages** — not 1, not 3
-- [ ] **No orphaned `\cventry` titles** — a job/education title must never sit at the bottom of a page with its bullets spilling to the next. Use `\needspace{5\baselineskip}` before each `\cventry` to prevent this, and `\enlargethispage{2-3\baselineskip}` to rescue a trailing section that just barely spills
+- [ ] **CV is exactly 1 page** — not 2, not more. Use 10pt font, `scale=0.87, top=12mm, bottom=10mm` geometry, compact bullets (no `\vspace` between items), and merged Education + Certifications + Languages section to achieve this. If overflowing, cut bullets from older roles first, then shorten profile statement.
+- [ ] **No orphaned `\cventry` titles** — use `\needspace{5\baselineskip}` before each `\cventry`
 - [ ] **Cover letter is exactly 1 page** — signature block must fit with the body, never overflow
 - [ ] **Cover letter bullet font matches body font** — `\lettercontent{}` must not wrap `\begin{itemize}...\end{itemize}`. Standard pattern: close `\lettercontent{}`, then wrap the list in `{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont \begin{itemize}...\end{itemize}\par}`

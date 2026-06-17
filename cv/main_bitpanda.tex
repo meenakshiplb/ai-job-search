@@ -1,0 +1,94 @@
+%% CV — Meenakshi Subudhi
+%% Tailored for: Senior Software Engineer, Java (Trade Hub) — Bitpanda
+%% Compile with: lualatex main_bitpanda.tex
+
+\documentclass[10pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{24}{26}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{24}{26}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{needspace}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    pdftitle={Meenakshi Subudhi - CV - Bitpanda},
+}
+\usepackage[scale=0.87, top=12mm, bottom=10mm]{geometry}
+
+\name{Meenakshi}{Subudhi}
+\address{Vienna, Austria}{}{}
+\phone[mobile]{+43 664 599 4748}
+\email{meenuplb@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/meenakshi-subudhi}{linkedin.com/in/meenakshi-subudhi} \quad | \quad Austrian RWR-Plus Visa · Full Work Permit}
+
+\begin{document}
+
+\makecvtitle
+\vspace{-10pt}
+
+\small{Senior Software Engineer with 10+ years building scalable Java backend systems and REST APIs across enterprise SaaS, e-commerce, and healthcare. Proven track record shipping production-integrated REST services, leading test quality initiatives, and mentoring engineers. Experienced with Spring Boot, microservices, Docker, Kubernetes, AWS, and event-driven integration patterns; actively applying Claude Code and AI tooling in daily engineering work.}
+
+\vspace{2pt}
+
+\section{Technical Skills}
+\vspace{1pt}
+\begin{itemize}
+  \item \textbf{Languages \& Frameworks:} Java 17, Java 8/11, Java EE \textbar{} Spring Boot, Hibernate/JPA, OSGi, JSF, Eclipse RCP (SWT, Swing)
+  \item \textbf{APIs \& Messaging:} REST, SOAP, OpenAPI/Swagger \textbar{} AWS SQS, event-driven microservices patterns
+  \item \textbf{Databases:} PostgreSQL, MySQL, Oracle, MS SQL, DB2, H2, Liquibase
+  \item \textbf{DevOps \& Testing:} Docker, Kubernetes, Jenkins, Maven \textbar{} JUnit 4/5, Mockito, Robot Framework, End-to-End
+  \item \textbf{AI \& Tools:} Claude Code (Anthropic), Google Gemini, Cursor \textbar{} Git, Grafana, Elasticsearch, Jira, Confluence
+\end{itemize}
+
+\section{Professional Experience}
+\vspace{1pt}
+
+\needspace{5\baselineskip}
+\cventry{Jul 2022--Present}{Senior Software Engineer (R\&D Engineer Software 3)}{Broadcom Inc.}{Vienna, Austria}{}{
+\textit{Automic Automation — Enterprise Workload Automation Platform (SaaS)}
+\begin{itemize}
+  \item Designed and shipped a context-based report search REST endpoint from hackathon prototype to production SaaS release, improving report analysis efficiency by 50\%.
+  \item Led Java API test migration across the Automation Engine — systematically replacing legacy tests with structured, maintainable Java API tests; improved test coverage and reliability at scale.
+  \item Delivered multiple REST API features consumed by enterprise customers globally; conducted cross-team PR reviews and maintained nightly CI/CD pipelines on Jenkins/Bazel.
+  \item Built an AI-powered on-call support assistant prototype (Google Gemini + NotebookLM); actively uses Claude Code and Cursor in daily engineering work.
+  \item \textbf{Tech:} Java 17, OSGi, REST \textbar{} Docker, Kubernetes \textbar{} JUnit, Robot Framework \textbar{} Jenkins, Bazel \textbar{} PostgreSQL, Oracle, DB2
+\end{itemize}}
+
+\needspace{4\baselineskip}
+\cventry{Sep 2021--Jul 2022}{Software Developer}{Dodax EU GmbH}{Vienna, Austria}{}{
+\textit{E-commerce platform serving millions of products and customers}
+\begin{itemize}
+  \item Built and maintained Spring Boot microservices across vendor management, logistics, and order processing; achieved 80\% test coverage through systematic unit and integration testing.
+  \item Optimised page loading performance for a multi-million-product catalogue, delivering measurable response time improvements.
+  \item \textbf{Tech:} Java 8/11, Spring Boot, Hibernate/JPA, REST \textbar{} MySQL, PostgreSQL \textbar{} Maven, Jenkins, AWS SQS
+\end{itemize}}
+
+\needspace{4\baselineskip}
+\cventry{Aug 2018--Aug 2021}{Software Developer}{Medical University of Vienna}{Vienna, Austria}{}{
+\textit{Octavo — Image-based Medical Diagnosis Software}
+\begin{itemize}
+  \item Improved scan loading performance by 300\%; grew code coverage from 0\% to 50\%+ within one year using JUnit 4 and Mockito.
+  \item Resolved 200+ bugs through root cause analysis and refactoring; mentored a junior developer on codebase onboarding and workflow.
+  \item \textbf{Tech:} Java, Eclipse RCP, SWT, Swing, SOAP \textbar{} JUnit 4, Mockito \textbar{} GitLab, Jira
+\end{itemize}}
+
+\needspace{3\baselineskip}
+\cventry{Sep 2013--Aug 2016}{Software Engineer}{Tata Consultancy Services}{Bangalore, India}{}{
+\textit{Clients: GE Healthcare PLM · Internal enterprise search platform}
+\begin{itemize}
+  \item Built an EXALEAD CloudView enterprise search application consolidating data from multiple ERP systems; delivered GE Healthcare Enovia PLM features in Java EE — received TCS Gems Award.
+  \item \textbf{Tech:} Java EE, JavaScript, HTML \textbar{} EXALEAD CloudView, Enovia
+\end{itemize}}
+
+\section{Education \& Certifications}
+\vspace{1pt}
+\cventry{2009--2013}{B.Tech — Mechanical Engineering}{College of Engineering and Technology}{Bhubaneswar, India}{}{CGPA: 8.6/10 · Department Fellowship — Top 5 Scorer}
+\cvitem{Certifications}{IBM Generative AI: Prompt Engineering (2025) · Six Sigma Green Belt · Broadcom internal AI training programmes}
+\cvitem{Languages}{English (fluent) · German (A2) · Odia (native) · Hindi (native)}
+
+\end{document}
