@@ -1,0 +1,95 @@
+%% CV — Meenakshi Subudhi
+%% Tailored for: Senior Software Engineer Backend — Roche / mySugr GmbH
+%% Compile with: lualatex main_roche.tex
+
+\documentclass[10pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{24}{26}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{24}{26}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{needspace}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    pdftitle={Meenakshi Subudhi - CV - Roche mySugr},
+}
+\usepackage[scale=0.87, top=12mm, bottom=10mm]{geometry}
+
+\name{Meenakshi}{Subudhi}
+\address{Vienna, Austria}{}{}
+\phone[mobile]{+43 664 599 4748}
+\email{meenuplb@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/meenakshi-subudhi}{linkedin.com/in/meenakshi-subudhi} \quad | \quad Austrian RWR-Plus Visa · Full Work Permit}
+
+\begin{document}
+
+\makecvtitle
+\vspace{-10pt}
+
+\small{Senior Software Engineer with 10+ years building high-quality Java backend systems across healthcare, enterprise SaaS, and e-commerce domains. Experienced in delivering production-grade REST services and microservices to the reliability standards required of medical and regulated software. Hands-on with AI/LLM backend service integration (Google Gemini, Claude Code) and holds an IBM Prompt Engineering certification. Strong test coverage discipline, clean code values, and a track record of performance optimisation in clinical and SaaS environments. Fluent English; AWS, Spring Boot, PostgreSQL, Docker, Kubernetes.}
+
+\vspace{2pt}
+
+\section{Technical Skills}
+\vspace{1pt}
+\begin{itemize}
+  \item \textbf{Languages \& Frameworks:} Java 8/11/17, Java EE \textbar{} Spring Boot, Hibernate/JPA, OSGi, JSF, Eclipse RCP (SWT, Swing)
+  \item \textbf{APIs \& Integration:} REST, SOAP, OpenAPI/Swagger \textbar{} AWS SQS, event-driven microservices patterns
+  \item \textbf{Databases:} PostgreSQL, MySQL, Oracle, MS SQL, DB2, H2, Liquibase
+  \item \textbf{DevOps \& Testing:} Docker, Kubernetes, Jenkins, Maven \textbar{} JUnit 4/5, Mockito, Robot Framework, End-to-End
+  \item \textbf{AI \& Tools:} Claude Code (Anthropic), Google Gemini, Cursor, IBM Prompt Engineering (2025) \textbar{} Git, Grafana, Jira
+\end{itemize}
+
+\section{Professional Experience}
+\vspace{1pt}
+
+\needspace{5\baselineskip}
+\cventry{Jul 2022--Present}{Senior Software Engineer (R\&D Engineer Software 3)}{Broadcom Inc.}{Vienna, Austria}{}{
+\textit{Automic Automation — Enterprise Workload Automation Platform (SaaS)}
+\begin{itemize}
+  \item Built an AI-powered on-call support backend service integrating Google Gemini and NotebookLM — hands-on AI/LLM backend engineering applied to a production SaaS context.
+  \item Designed and shipped a context-based report search REST endpoint from hackathon prototype to production SaaS release, improving report analysis efficiency by 50\%.
+  \item Led Java API test migration across the Automation Engine — systematic replacement of legacy tests with clean, maintainable Java API tests; improved coverage and long-term reliability at scale.
+  \item Delivered REST API features consumed by enterprise customers globally; conducted cross-team PR reviews and maintained CI/CD pipelines on Jenkins/Bazel.
+  \item \textbf{Tech:} Java 17, OSGi, REST \textbar{} Docker, Kubernetes \textbar{} JUnit, Robot Framework \textbar{} Jenkins, Bazel \textbar{} PostgreSQL, Oracle, DB2
+\end{itemize}}
+
+\needspace{4\baselineskip}
+\cventry{Aug 2018--Aug 2021}{Software Developer}{Medical University of Vienna}{Vienna, Austria}{}{
+\textit{Octavo — Image-based Medical Diagnosis Software (clinical use)}
+\begin{itemize}
+  \item Delivered production Java software for a medical imaging platform used in clinical diagnosis — working to the correctness and reliability standards required of regulated healthcare software.
+  \item Improved scan loading performance by 300\%, directly enhancing clinical usability; grew code coverage from 0\% to 50\%+ within one year using JUnit 4 and Mockito.
+  \item Resolved 200+ bugs through root cause analysis and systematic refactoring; mentored a junior developer on codebase onboarding and engineering workflow.
+  \item \textbf{Tech:} Java, Eclipse RCP, SWT, Swing, SOAP \textbar{} JUnit 4, Mockito \textbar{} GitLab, Jira, Confluence
+\end{itemize}}
+
+\needspace{4\baselineskip}
+\cventry{Sep 2021--Jul 2022}{Software Developer}{Dodax EU GmbH}{Vienna, Austria}{}{
+\textit{E-commerce platform — order processing, vendor management, logistics}
+\begin{itemize}
+  \item Built and maintained Spring Boot microservices across order processing and vendor management; achieved 80\% test coverage through systematic unit and integration testing.
+  \item Optimised page loading performance for a multi-million-product catalogue, delivering measurable response time improvements via AWS SQS event-driven integration.
+  \item \textbf{Tech:} Java 8/11, Spring Boot, Hibernate/JPA, REST \textbar{} MySQL, PostgreSQL \textbar{} Maven, Jenkins, AWS SQS
+\end{itemize}}
+
+\needspace{3\baselineskip}
+\cventry{Sep 2013--Aug 2016}{Software Engineer}{Tata Consultancy Services}{Bangalore, India}{}{
+\textit{Clients: GE Healthcare (PLM) · Internal enterprise search platform}
+\begin{itemize}
+  \item Delivered Java EE frontend and backend features for a GE Healthcare Enovia-based PLM platform — first industry exposure to healthcare software delivery standards; received TCS Gems Award.
+  \item \textbf{Tech:} Java EE, JavaScript, HTML \textbar{} EXALEAD CloudView, Enovia
+\end{itemize}}
+
+\section{Education \& Certifications}
+\vspace{1pt}
+\cventry{2009--2013}{B.Tech — Mechanical Engineering}{College of Engineering and Technology}{Bhubaneswar, India}{}{CGPA: 8.6/10 · Department Fellowship — Top 5 Scorer}
+\cvitem{Certifications}{IBM Generative AI: Prompt Engineering (2025) · Six Sigma Green Belt · Broadcom internal AI training programmes}
+\cvitem{Languages}{English (fluent) · German (A2) · Odia (native) · Hindi (native)}
+
+\end{document}
