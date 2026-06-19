@@ -31,6 +31,36 @@
 
 ---
 
+## LinkedIn Discovery Protocol
+
+**IMPORTANT — read before running any `site:linkedin.com/jobs` query:**
+
+LinkedIn blocks automated access to its search and listing pages (HTTP 403). However, **individual job pages work fine**. Use this two-step approach:
+
+### Step 1 — Discover job IDs via Google WebSearch
+Run `site:linkedin.com/jobs` queries using **WebSearch** (not WebFetch). Google has indexed LinkedIn job postings and will return individual job URLs in search results. Extract job IDs from URLs matching this pattern:
+```
+https://www.linkedin.com/jobs/view/{JOB_ID}/
+```
+
+### Step 2 — Fetch each individual job page
+For every LinkedIn job ID discovered, WebFetch the direct URL:
+```
+https://www.linkedin.com/jobs/view/{JOB_ID}/
+```
+These individual pages load successfully and contain the full job description plus posting date.
+
+### Step 3 — Extract the posting date
+LinkedIn job pages show posting time in formats like:
+- "Posted 2 days ago" → verifiable, include if within 14-day window
+- "Posted 3 weeks ago" → beyond window, exclude
+- "Posted X hours ago" → include
+- No date visible → exclude per strict date-filter rule
+
+**Never** WebFetch `https://www.linkedin.com/jobs/search/...` or `https://www.linkedin.com/jobs?keywords=...` — these will 403. Only fetch `/jobs/view/{ID}/` URLs.
+
+---
+
 ## Query Categories
 
 ### Priority 1: Senior Java / Backend Engineering — Vienna
@@ -218,6 +248,28 @@ Java Kotlin microservices Vienna Engineer
 "Backend Engineer" Java REST Vienna
 "Java Developer" Docker Kubernetes Vienna
 "Application Engineer" Java REST Vienna
+```
+
+### Priority 9: LinkedIn Discovery via Google
+Run these as Google WebSearch queries. Extract every `linkedin.com/jobs/view/{ID}` URL from results, then WebFetch each one individually. Follow the LinkedIn Discovery Protocol above.
+
+```
+site:linkedin.com/jobs/view "Senior Java" "Vienna"
+site:linkedin.com/jobs/view "Senior Software Engineer" "Java" "Vienna"
+site:linkedin.com/jobs/view "Backend Engineer" "Java" "Vienna"
+site:linkedin.com/jobs/view "Senior Backend Engineer" "Spring Boot" "Vienna"
+site:linkedin.com/jobs/view "Java Developer" "Spring Boot" "Vienna"
+site:linkedin.com/jobs/view "Tech Lead" "Java" "Vienna"
+site:linkedin.com/jobs/view "Software Engineer" "Java" "Vienna" "Bitpanda"
+site:linkedin.com/jobs/view "Software Engineer" "Java" "Vienna" "Dynatrace"
+site:linkedin.com/jobs/view "Software Engineer" "Java" "Vienna" "Tricentis"
+site:linkedin.com/jobs/view "Software Engineer" "Java" "Vienna" "Roche"
+site:linkedin.com/jobs/view "Software Engineer" "Java" "Vienna" "Raiffeisen"
+site:linkedin.com/jobs/view "Software Engineer" "Java" "Vienna" "George"
+site:linkedin.com/jobs/view "Software Engineer" "Java" "Vienna" "Nagarro"
+site:linkedin.com/jobs/view "AI Engineer" "Java" "Vienna"
+site:linkedin.com/jobs/view "Senior Java" remote Europe
+site:linkedin.com/jobs/view "Senior Backend Engineer" "Java" remote
 ```
 
 ---

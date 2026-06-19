@@ -43,8 +43,12 @@ For each query category in `search-queries.md`:
 3. Filter: must be posted within the last 14 days OR have a future deadline. Flag posts with no visible date.
 4. Record results in `job_scraper/results.md` with: title, company, URL, posted date, brief summary
 
+### LinkedIn note (IMPORTANT)
+LinkedIn **search pages** return HTTP 403 — never WebFetch `linkedin.com/jobs/search/...` or `linkedin.com/jobs?keywords=...`.
+Instead: run `site:linkedin.com/jobs/view` queries via WebSearch (Google), extract individual job IDs from results, then WebFetch each `https://www.linkedin.com/jobs/view/{ID}/` directly — these individual pages load successfully. See the LinkedIn Discovery Protocol section in `search-queries.md`.
+
 ### Date filter note
-Austrian job ads often don't show a post date but show an application deadline ("Bewerbungsfrist"). Include if the deadline is in the future.
+Austrian job ads often don't show a post date but show an application deadline ("Bewerbungsfrist"). Include if the deadline is in the future. LinkedIn pages show "Posted X days ago" — use that for date verification.
 
 ---
 
