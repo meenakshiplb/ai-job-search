@@ -180,3 +180,13 @@ https://to.indeed.com/aahzwdxf6hcb
 https://www.karriere.at/jobs/7728299
 https://www.karriere.at/jobs/10009538
 https://www.karriere.at/jobs/7712264
+https://to.indeed.com/aanhz24qjfyj
+https://to.indeed.com/aa8gkb7tshlq
+https://to.indeed.com/aajwvlwxcghk
+https://to.indeed.com/aa9vkngbm98h
+https://to.indeed.com/aax8j2tymmmz
+https://to.indeed.com/aad9k9zlsqd4
+https://to.indeed.com/aatgkrmnv2dv
+https://to.indeed.com/aaslp9df82pk
+https://www.karriere.at/jobs/7789580
+https://www.karriere.at/jobs/7780397
