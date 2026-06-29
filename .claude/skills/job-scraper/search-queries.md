@@ -3,7 +3,7 @@
 <!-- Update this file and push to GitHub — the daily scraper picks it up automatically -->
 
 ## Target Profile
-- **Location:** Vienna, Austria (primary) + remote anywhere (secondary — fully remote, no relocation)
+- **Location:** Austria, Vienna(primary) + remote anywhere (secondary — fully remote, no relocation)
 - **Languages:** English (primary), German (A2 — flag German-only roles as borderline)
 - **Experience:** 10+ years Java backend, REST APIs, Spring Boot, OSGi
 - **Domains:** Enterprise SaaS, Workload Automation, Healthcare IT, E-commerce, PLM
