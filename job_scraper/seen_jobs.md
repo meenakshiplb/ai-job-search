@@ -263,6 +263,7 @@ https://to.indeed.com/aajvv6knd4lk
 https://to.indeed.com/aawccx98ydx2
 https://to.indeed.com/aa8twjf8yv8f
 https://to.indeed.com/aahv8dv4dm9s
+https://viesure.io/ai-developer/
 https://to.indeed.com/aahnc7yhd8q8
 https://to.indeed.com/aaxnpzkj89rr
 https://to.indeed.com/aagpjmsvnmr6
