@@ -300,3 +300,4 @@ https://at.linkedin.com/jobs/view/senior-java-developer-with-relocation-to-vienn
 https://in.linkedin.com/jobs/view/tech-lead-senior-java-microservices-backend-engineer-spring-boot-at-zonopact-inc-4390932929
 https://in.linkedin.com/jobs/view/tech-lead-software-development-engineering-java-spring-microservices-api-at-fiserv-4431482312
 https://at.linkedin.com/jobs/view/software-engineer-java-at-tricentis-4395981420
+https://www.brz-jobs.at/Job/2788
