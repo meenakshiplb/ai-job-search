@@ -301,3 +301,16 @@ https://in.linkedin.com/jobs/view/tech-lead-senior-java-microservices-backend-en
 https://in.linkedin.com/jobs/view/tech-lead-software-development-engineering-java-spring-microservices-api-at-fiserv-4431482312
 https://at.linkedin.com/jobs/view/software-engineer-java-at-tricentis-4395981420
 https://www.brz-jobs.at/Job/2788
+https://www.karriere.at/jobs/7760870
+https://www.karriere.at/jobs/7790723
+https://www.karriere.at/jobs/7787846
+https://www.karriere.at/jobs/7811276
+https://www.karriere.at/jobs/7773755
+https://www.karriere.at/jobs/7760870
+https://www.karriere.at/jobs/7787846
+https://www.karriere.at/jobs/7773755
+https://www.karriere.at/jobs/7790723
+https://www.karriere.at/jobs/7811276
+https://careers.dynatrace.com/jobs/1291392400/
+https://www.linkedin.com/jobs/view/senior-java-engineer-%E2%80%94-platform-consolidation-remote-central-europe-at-edenity-4424894623
+https://www.linkedin.com/jobs/view/java-developer-%2480-hr-remote-at-crossing-hurdles-4428485698
