@@ -337,3 +337,6 @@ https://www.brz-jobs.at/Job/2904
 https://www.brz-jobs.at/Job/3013
 https://www.karriere.at/jobs/7711049
 https://boards.eu.greenhouse.io/bitpanda/jobs/4006410101
+https://job-boards.greenhouse.io/bitpanda/jobs/4557201101
+https://at.linkedin.com/jobs/view/senior-software-engineer-java-fincrime-prevention-at-bitpanda-4039808215
+https://at.linkedin.com/jobs/view/software-engineer-java-21-fincrime-prevention-at-bitpanda-4046853869
