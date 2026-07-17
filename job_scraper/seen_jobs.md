@@ -378,3 +378,16 @@ https://boards.eu.greenhouse.io/bitpanda/jobs/4006410101
 https://job-boards.greenhouse.io/bitpanda/jobs/4557201101
 https://at.linkedin.com/jobs/view/senior-software-engineer-java-fincrime-prevention-at-bitpanda-4039808215
 https://at.linkedin.com/jobs/view/software-engineer-java-21-fincrime-prevention-at-bitpanda-4046853869
+https://weworkremotely.com/remote-jobs/proxify-ab-senior-java-backend-developer
+https://to.indeed.com/aanftp2byvmh
+https://to.indeed.com/aaww2nn92mcc
+https://to.indeed.com/aan7dllt69kz
+https://to.indeed.com/aa28g6dz747f
+https://to.indeed.com/aa6jkwhghypm
+https://to.indeed.com/aajx2t7t68jt
+https://to.indeed.com/aafztv2lqlmv
+https://www.karriere.at/jobs/10009920
+https://at.linkedin.com/jobs/view/senior-java-developer-all-humans-at-erste-digital-4007344376
+https://at.linkedin.com/jobs/view/senior-java-backend-developer-at-bawag-group-4193919242
+https://to.indeed.com/aahyd2g8g4v7
+https://devjobs.at/job/79794833606079580
