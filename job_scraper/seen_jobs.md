@@ -1,5 +1,17 @@
 # Seen Jobs
 
+https://to.indeed.com/aaq4zjb9dn6s
+https://to.indeed.com/aazm6cy6twbv
+https://www.karriere.at/jobs/7757840
+https://www.karriere.at/jobs/7784963
+https://careers.dynatrace.com/jobs/1305478000/
+https://www.dynatrace.com/careers/jobs/1396273100/
+https://job-boards.eu.greenhouse.io/ecosio/jobs/4380960101
+https://job-boards.eu.greenhouse.io/ecosio/jobs/4362635101
+https://jobs.rbinternational.com/raiffeisengroupit/job/Wien-Senior-Software-Engineer-(fmx)-1190/818934302/
+https://weworkremotely.com/remote-jobs/proxify-ab-senior-java-backend-developer
+https://job-boards.eu.greenhouse.io/bitpanda/jobs/4352363101
+
 https://to.indeed.com/aa769pdljfxx
 https://to.indeed.com/aa9ltxdqkgkl
 https://to.indeed.com/aanhx28fk74t
