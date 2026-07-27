@@ -575,3 +575,8 @@ https://weworkremotely.com/remote-jobs/payoneer-germany-gmbh-java-backend-develo
 https://weworkremotely.com/remote-jobs/coinbase-senior-software-engineer-backend-consumer-prediction-markets
 https://weworkremotely.com/listings/canva-staff-backend-engineer-java-admin-experience-open-to-remote-across-anz
 https://remoteok.com/remote-jobs/remote-senior-backend-engineer-rarible-1090185
+https://jobs.primion.eu/o/senior-backend-engineer-technical-lead-mfd
+https://jobgether.com/offer/6a512c32ac00a71a5a86c185-senior-full-stack-developer-java-react
+https://www.karriere.at/jobs/7529446
+https://en.devjobs.at/job/91b088f79233759895619c0eaaf9da19
+https://riedelcommunications.softgarden.io/job/54777088/
