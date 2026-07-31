@@ -580,3 +580,25 @@ https://jobgether.com/offer/6a512c32ac00a71a5a86c185-senior-full-stack-developer
 https://www.karriere.at/jobs/7529446
 https://en.devjobs.at/job/91b088f79233759895619c0eaaf9da19
 https://riedelcommunications.softgarden.io/job/54777088/
+
+# 2026-07-31
+https://remotive.com/remote/jobs/software-development/senior-java-backend-developer-4493502
+https://remotive.com/remote/jobs/software-development/senior-java-backend-developer-focus-on-ai-4811526
+https://remotive.com/remote/jobs/software-development/senior-java-backend-developer-3774934
+https://remotive.com/remote/jobs/software-development/senior-java-developer-5337509
+https://to.indeed.com/aar4ymrkldjb
+https://to.indeed.com/aab4lgmbzxwx
+https://remotive.com/remote/jobs/software-development/senior-java-backend-developer-4457990
+https://to.indeed.com/aambvzygch7t
+https://to.indeed.com/aapftccrr4mh
+https://to.indeed.com/aakj846x2dfs
+https://to.indeed.com/aacnpv46lhdl
+https://to.indeed.com/aalhlf8q2mt9
+https://to.indeed.com/aacdw4yv4vg2
+https://remotive.com/remote/jobs/software-development/senior-java-backend-developer-4093549
+https://remotive.com/remote/jobs/software-development/senior-java-backend-developer-4333767
+https://remotive.com/remote/jobs/software-development/senior-java-developer-4467369
+https://remotive.com/remote/jobs/software-development/senior-backend-developer-4476797
+https://remotive.com/remote/jobs/software-development/lead-software-engineer-4479517
+https://remotive.com/remote/jobs/software-development/senior-java-backend-engineer-4426365
+https://remotive.com/remote/jobs/software-development/senior-java-with-kotlin-backend-developer-4426431
