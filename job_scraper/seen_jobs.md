@@ -602,3 +602,13 @@ https://remotive.com/remote/jobs/software-development/senior-backend-developer-4
 https://remotive.com/remote/jobs/software-development/lead-software-engineer-4479517
 https://remotive.com/remote/jobs/software-development/senior-java-backend-engineer-4426365
 https://remotive.com/remote/jobs/software-development/senior-java-with-kotlin-backend-developer-4426431
+
+# 2026-08-01
+https://www.karriere.at/jobs/7788680
+https://www.karriere.at/jobs/10009697
+https://www.karriere.at/jobs/7824770
+https://www.karriere.at/jobs/7796624
+https://www.karriere.at/jobs/5708388
+https://www.karriere.at/jobs/10016763
+https://www.karriere.at/jobs/5602720
+https://www.karriere.at/jobs/7786946
