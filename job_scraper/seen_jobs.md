@@ -602,3 +602,12 @@ https://remotive.com/remote/jobs/software-development/senior-backend-developer-4
 https://remotive.com/remote/jobs/software-development/lead-software-engineer-4479517
 https://remotive.com/remote/jobs/software-development/senior-java-backend-engineer-4426365
 https://remotive.com/remote/jobs/software-development/senior-java-with-kotlin-backend-developer-4426431
+
+# 2026-08-03
+https://to.indeed.com/aa7f47brd79n
+https://weworkremotely.com/remote-jobs/toptal-senior-java-developer-microservices-spring-remote
+https://remotive.com/remote/jobs/software-development/senior-backend-developer-java-4007226
+https://remotive.com/remote/jobs/software-development/java-full-stack-developer-3104763
+https://www.karriere.at/jobs/7777271
+https://www.karriere.at/jobs/10026199
+https://www.linkedin.com/jobs/view/1298685000
